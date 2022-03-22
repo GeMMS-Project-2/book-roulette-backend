@@ -43,7 +43,54 @@
 
         "description": "In this refreshingly entertaining how-to guide, bestselling author and success coach, Jen Sincero, serves up 27 bitesized chapters full of hilariously inspiring stories, sage advice, easy exercises, and the occasional swear word, helping you to Identify and change the self-sabotaging beliefs and behaviours that stop you from getting what you want."
 
-    }
+    },
+    {
+     "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "genre": "Fantasy",
+    "img": "https://i.imgur.com/MtnGBuH.jpg",
+    "filmAdaptation": "false",
+    "description": "Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them.  One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable."
+},
+{
+    "title": "Hounded",
+    "author": "Kevin Hearne",
+    "genre": "Fantasy",
+    "img": "https://i.imgur.com/QlzdONS.jpg",
+    "filmAdaptation": "false",
+    "description": "Atticus O’Sullivan is the last of the ancient druids. He has been on the run for more than two thousand years and he’s tired of it. The Irish gods who want to kill him are after an enchanted sword he stole in a first-century battle, and when they find him managing an occult bookshop in Tempe, Arizona, Atticus doesn’t want to uproot his life again. He just wants everything to end one way or another, but preferably the way in which he can continue to enjoy fish and chips. He does have some small hope of survival: The Morrigan, the Irish Chooser of the Slain, is on his side, and so is Brighid, First Among the Fae. His lawyer is literally a bloodsucking vampire, and he has a loyal Irish wolfhound with opinions about poodles. But he’s facing down some mighty enemies: Aenghus Óg, a vengeful Irish god, plus a coven of witches and even the local police. On top of all that, Aenghus has a direct line to the firepower of hell. Atticus will need all the luck of the Irish and more if he’s going to stay alive."
+ },
+
+ {"title": "The Hidden Staircase (Nancy Drew Series #2)",
+    "author": "Carolyn Keene",
+    "genre": "Mystery",
+    "img": "hhttps://i.imgur.com/OcQr8U1.jpg",
+    "filmAdaptation": "true",
+    "description": "After receiving a call from her friend Helen Corning, Nancy agrees to help solve a baffling mystery. Helen's Aunt Rosemary has been living with her mother at the old family mansion, and they have noticed many strange things. They have heard music, thumps, and creaking noises at night, and seen eerie shadows on the walls. Could the house be haunted?Just as soon as she hangs up the phone, a strange man visits Nancy's house to warn her and her father that they are in danger because of a case he is working on buying property for a railroad company. This warning leads Nancy and  her father Carson to search for the missing Willie Wharton, a landowner, who can prove he signed away his land to the railroad and save the railroad from a lawsuit. Will Nancy be able to find the missing landowner and discover how these mysteries are related?"
+ },
+ { "title": "The Last Eligible Billionaire",
+    "author": "Pippa Grant",
+    "genre": "Romance",
+    "img": "https://i.imgur.com/XSxBZ94.jpg",
+    "filmAdaptation": "false",
+    "description":"He's a billionaire heir. A grump supreme. Hater of people. Bigger hater of peopling with people. And my new fake boyfriend.Emotionally unavailable doesn't even begin to describe Hayes Rutherford. He's cold. He's distant. He has more defenses than a nuclear missile silo. And he's the ultimate catch of the century. At least, according to his bank statement.My job's simple: Keep Hayes's matchmaking relatives and all interested ladies away from the cranky, grumpy, walled-off heir to my favorite movie empire by pretending to be his one true love, and in return, he won't ruin my life over a teensy, tiny little misunderstanding.But the more I sneak past his walls and fences, the more I realize that while we might be from different worlds, we have more in common than either of us expected. The man under all the glitz, glamour, and dollar signs could be the real love of my life.But you know what they say about fake dating a billionaire-it's all fun and games until the scandals start."
+ },
+ {
+    "title": "The Woman in Cabin 10",
+    "author": "Ruth Ware",
+    "genre": "Thriller",
+    "img": "https://images-eu.ssl-images-amazon.com/images/I/51ERfSx5RyL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
+    "filmAdaptation": "false",
+    "description":"In this tightly wound, enthralling story reminiscent of Agatha Christie’s works, Lo Blacklock, a journalist who writes for a travel magazine, has just been given the assignment of a lifetime: a week on a luxury cruise with only a handful of cabins. The sky is clear, the waters calm, and the veneered, select guests jovial as the exclusive cruise ship, the Aurora, begins her voyage in the picturesque North Sea. At first, Lo’s stay is nothing but pleasant: the cabins are plush, the dinner parties are sparkling, and the guests are elegant. But as the week wears on, frigid winds whip the deck, gray skies fall, and Lo witnesses what she can only describe as a dark and terrifying nightmare: a woman being thrown overboard. The problem? All passengers remain accounted for—and so, the ship sails on as if nothing has happened, despite Lo’s desperate attempts to convey that something (or someone) has gone terribly, terribly wrong… With surprising twists, spine-tingling turns, and a setting that proves as uncomfortably claustrophobic as it is eerily beautiful, Ruth Ware offers up another taut and intense read in The Woman in Cabin 10—one that will leave even the most sure-footed reader restlessly uneasy long after the last page is turned."
+ },
+ {
+    "title": "The Turn of the key",
+    "author": "Ruth Ware",
+    "genre": "Thriller",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41cETPxRUcL._SX323_BO1,204,203,200_.jpg",
+    "filmAdaptation": "false",
+    "description":"When Rowan stumbles across the advert, it seems like too good an opportunity to miss: a live-in nanny position, with a very generous salary. And when she arrives at Heatherbrae House, she is smitten by the luxurious ‘smart’ home fitted out with all modern conveniences by a picture-perfect family. What she doesn’t know is that she’s stepping into a nightmare – one that will end with a child dead and her in cell awaiting trial for murder.She knows she’s made mistakes. But she’s not guilty – at least not of murder. Which means someone else is…" 
+ }
 ]
 
 
