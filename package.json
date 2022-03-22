@@ -1,0 +1,26 @@
+{
+  "name": "book-roulette-backend",
+  "version": "1.0.0",
+  "description": "This is a book recommendation app that will generate a random book to users based on genre preferences. Each user has the capability to add books that they would recommend to fellow users as well.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeMMS-Project-2/book-roulette-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeMMS-Project-2/book-roulette-backend/issues"
+  },
+  "homepage": "https://github.com/GeMMS-Project-2/book-roulette-backend#readme"
+}
