@@ -1,8 +1,8 @@
-const mongoose = require ('./connection');
+const mongoose = require ('../db/connections');
 
 // import Book Model 
 
-const Book = require ('./models/Books');
+const Book = require ('../models/Book')
 
 const bookSeeds = require('./seeds.json');
 
