@@ -6,11 +6,11 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Mongo URL and Connection
-// const mongoURI = process.env.DATABASE_URL;
-const mongoURI =
-  process.env.NODE_ENV === "production"
-    ? process.env.PRODUCTION_DATABASE_URL
-    : process.env.DEVELOPMENT_DATABASE_URL;
+const mongoURI = process.env.DATABASE_URL;
+// const mongoURI =
+//   process.env.NODE_ENV === "production"
+//     ? process.env.PRODUCTION_DATABASE_URL
+//     : process.env.DEVELOPMENT_DATABASE_URL;
 
 const db = mongoose.connection;
 
