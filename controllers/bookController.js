@@ -7,3 +7,5 @@ router.get('/', (req, res) => {
     Book.find({}).then((books) => res.json(books)
     .catch((err) => console.error(err)))
 });
+
+module.exports = router;
