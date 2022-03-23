@@ -34,6 +34,32 @@ router.get('/', async (req, res) => {
     };
 });
 
+router.get('/genre/:genre', async (req, res) => {
+    try {
+       const books = await Book.find({genre: req.params.genre});
+       console.log(req.params.genre);
+       if(books) {
+           res.json(books);
+       } else {
+           res.sendStatus(404);
+       }
+       
+   } catch (error) {
+       console.log(error)
+       
+   };
+});
+
+
+
+
+
+
+
+
+
+
+
 
 // GET BOOK by ID 
 // http://localhost:8000/books/623a69a6674c3d818fa9e63c
@@ -58,25 +84,13 @@ router.get('/:id', async (req, res) => {
  
 
 // GET BOOK by GENRE 
-// http://localhost:8000/books/623a69a6674c3d818fa9e63c
+// http://localhost:8000/books/genre/mystery
 
 
 
-router.get('books/:genre', async (req, res) => {
-     try {
-        const books = await Book.find({genre: req.params.genre});
-        // console.log(req.params.genre);
-        if(books) {
-            res.json(books);
-        } else {
-            res.sendStatus(404);
-        }
-        
-    } catch (error) {
-        console.log(error)
-        
-    };
-});
+
+
+
    
 
 // router.get('/books/:genre', (req,res) => {
