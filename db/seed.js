@@ -1,12 +1,13 @@
-const mongoose = require ('../db/connections');
+const mongoose = require("../db/connections");
 
-// import Book Model 
+// import Book Model
 
-const Book = require ('../models/Book')
+const Book = require("../models/Book");
 
-const bookSeeds = require('./seeds.json');
+const bookSeeds = require("./seeds.json");
 
-Book.deleteMany({}).then(() => {
+Book.deleteMany({})
+  .then(() => {
     Book.insertMany(bookSeeds)
       .then((book) => {
         console.log("added book");
@@ -17,8 +18,3 @@ Book.deleteMany({}).then(() => {
       });
   })
   .catch((err) => console.error(err));
-
-
-
-
-
