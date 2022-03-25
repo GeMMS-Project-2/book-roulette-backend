@@ -11,12 +11,16 @@ Future upgrades may include features enabling book clubs, writing circles, blogs
 
 **_Brief Example_**
 
-The attached screen shot depicts a view of the app and its features. (As an homage to a by-gone era, the card resembes a Dewey decimal system card.
-![Snippet2](https://user-images.githubusercontent.com/59627995/160184292-ec1b4e5e-d1e5-402e-86c3-bd2349d16025.jpg)
+The attached screen shot depicts a view of the Heroku API Endpoints 
+
+https://book-roulette.herokuapp.com/books
+
+<img width="556" alt="API DATA" src="https://user-images.githubusercontent.com/63123554/160194515-bef745f2-3411-4add-8894-6c607f304106.png">
+
 
 A user may search the database based on the field title, author, genre, and whether the book has been made into a film. Further, there is a description of the book. If a list of books is generated the titles are links for further detail on the retrieved item.
 
-**_List of Tewchnologies Used_**
+**_List of Technologies Used_**
 
 On the back end, the database is stored on a MongoDB. Heroku provides the cloud-based API server support. The front end utilizes React for UI construction and use of Express to interact with the backend. The primary CSS styling framework utilized was Flexbox.
 
@@ -26,6 +30,6 @@ Project-wise, Team Leader reviewed the project requirements and developed the ov
 
 The team was subsequently assigned roles, with 2 teammembers assigned each to the frontend and backend. The backend assisted on frontend deliverables following completion of backend setup. Styling of the API, headed by Michael Brock, was continuous throughout the project. It was responsive and informed substantivley the app's functional development. With the selection of a Git Master, Sarah Daehn, the team workflow was largely feature and PR. 
 
-**_Installation Instructions/Getting Started_**
+
 
 See frontend README.
