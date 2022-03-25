@@ -34,6 +34,26 @@ router.get('/', async (req, res) => {
     };
 });
 
+//http://localhost:8000/books/genre/Fantasy/random
+router.get('/genre/:genre/random', async (req, res) => {
+    try {
+       const books = await Book.find({genre: req.params.genre});
+       const randomIndex = Math.floor(Math.random() * books.length);
+       console.log(req.params.genre);
+       if(books) {
+           res.json(books[randomIndex]);
+       } else {
+           res.sendStatus(404);
+       }
+       
+   } catch (error) {
+       console.log(error)
+       
+   };
+});
+
+
+//http://localhost:8000/books/genre/Fantasy
 router.get('/genre/:genre', async (req, res) => {
     try {
        const books = await Book.find({genre: req.params.genre});
@@ -49,6 +69,9 @@ router.get('/genre/:genre', async (req, res) => {
        
    };
 });
+
+
+
 
 
 
